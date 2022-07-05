@@ -1,0 +1,16 @@
+package seleniumwebdriver;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Addition {
+
+	public static void main(String[] args)
+{
+		System.setProperty("webdriver.chrome.driver","C:\\\\Users\\\\Pratik\\\\Desktop\\\\Dhanu\\\\chromedriver.exe");
+		ChromeDriver ch= new ChromeDriver();
+		ch.get("https://www.calculator.net/");
+		ch.manage().window().maximize();
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package seleniumwebdriver;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class open
+{
+
+	public static void main(String[] args)
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Pratik\\Desktop\\Dhanu\\chromedriver.exe");
+		ChromeDriver ch= new ChromeDriver();
+		ch.manage().window().maximize();
+		ch.get("https://www.google.co.in");
+		
+	}
+
+}
